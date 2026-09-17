@@ -1,0 +1,103 @@
+{
+  "user": {
+    "name": "Nguyễn Văn A",
+    "avatar": "/avatar.png",
+    "securityScore": 87,
+    "riskLevel": "safe"
+  },
+  "stats": {
+    "totalScans": 1284,
+    "activeThreats": 3,
+    "blockedThreats": 142,
+    "riskScore": 12
+  },
+  "recentScans": [
+    {
+      "id": "SC-10824",
+      "timestamp": "31/08/2026 14:32:05",
+      "type": "url",
+      "sourceName": "URL",
+      "target": "https://secure-vietcombank-login.xyz/verify",
+      "riskLevel": "danger",
+      "riskLabel": "Mối đe dọa"
+    },
+    {
+      "id": "SC-10823",
+      "timestamp": "31/08/2026 13:18:44",
+      "type": "email",
+      "sourceName": "Email",
+      "target": "hr-notification@internal-company.com.vn",
+      "riskLevel": "safe",
+      "riskLabel": "An toàn"
+    },
+    {
+      "id": "SC-10822",
+      "timestamp": "30/08/2026 09:55:11",
+      "type": "phone",
+      "sourceName": "Số điện thoại",
+      "target": "+84 28 8888 9999",
+      "riskLevel": "warning",
+      "riskLabel": "Đáng ngờ"
+    },
+    {
+      "id": "SC-10821",
+      "timestamp": "30/08/2026 08:02:37",
+      "type": "email",
+      "sourceName": "Email",
+      "target": "service@paypal-security-alert.net",
+      "riskLevel": "safe",
+      "riskLabel": "An toàn"
+    },
+    {
+      "id": "SC-10820",
+      "timestamp": "29/08/2026 22:14:59",
+      "type": "url",
+      "sourceName": "URL",
+      "target": "http://shopee-khuyen-mai-iphone16.store",
+      "riskLevel": "danger",
+      "riskLabel": "Mối đe dọa"
+    }
+  ],
+  "threatCategories": [
+    { "label": "URL giả mạo", "value": 45, "color": "#EE4A4A" },
+    { "label": "Email lừa đảo", "value": 28, "color": "#F59E0B" },
+    { "label": "SMS spam", "value": 15, "color": "#3B82F6" },
+    { "label": "Số điện thoại", "value": 8, "color": "#8B5CF6" },
+    { "label": "Khác", "value": 4, "color": "#64748B" }
+  ],
+  "weeklyActivity": [
+    { "day": "T2", "scans": 45 },
+    { "day": "T3", "scans": 52 },
+    { "day": "T4", "scans": 38 },
+    { "day": "T5", "scans": 67 },
+    { "day": "T6", "scans": 89 },
+    { "day": "T7", "scans": 34 },
+    { "day": "CN", "scans": 28 }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "timestamp": "31/08/2026 14:32",
+      "message": "Phát hiện URL giả mạo Vietcombank",
+      "riskLevel": "danger"
+    },
+    {
+      "id": 2,
+      "timestamp": "31/08/2026 12:15",
+      "message": "Số điện thoại +84 28 8888 9999 được báo cáo là lừa đảo",
+      "riskLevel": "warning"
+    },
+    {
+      "id": 3,
+      "timestamp": "30/08/2026 18:45",
+      "message": "Email phishing giả danh PayPal bị chặn",
+      "riskLevel": "danger"
+    },
+    {
+      "id": 4,
+      "timestamp": "30/08/2026 09:20",
+      "message": "Tin nhắn SMS chứa link đáng ngờ gửi đến số của bạn",
+      "riskLevel": "warning"
+    }
+  ]
+}

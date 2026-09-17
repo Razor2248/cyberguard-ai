@@ -1,0 +1,60 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Bố",
+      "role": "Trưởng nhóm",
+      "securityScore": 92,
+      "riskLevel": "safe",
+      "avatar": "/avatar.png"
+    },
+    {
+      "id": 2,
+      "name": "Mẹ",
+      "role": "Thành viên",
+      "securityScore": 85,
+      "riskLevel": "safe",
+      "avatar": "/avatar.png"
+    },
+    {
+      "id": 3,
+      "name": "Em",
+      "role": "Thành viên",
+      "securityScore": 68,
+      "riskLevel": "warning",
+      "avatar": "/avatar.png"
+    }
+  ],
+  "recentHistory": [
+    {
+      "id": 1,
+      "memberId": 1,
+      "memberName": "Bố",
+      "type": "url",
+      "typeName": "URL",
+      "target": "https://secure-vietcombank-login.xyz",
+      "riskLevel": "danger",
+      "timestamp": "31/08/2026 14:32"
+    },
+    {
+      "id": 2,
+      "memberId": 2,
+      "memberName": "Mẹ",
+      "type": "email",
+      "typeName": "Email",
+      "target": "service@paypal-security-alert.net",
+      "riskLevel": "safe",
+      "timestamp": "31/08/2026 13:18"
+    },
+    {
+      "id": 3,
+      "memberId": 3,
+      "memberName": "Em",
+      "type": "sms",
+      "typeName": "SMS",
+      "target": "Tin nhắn trúng thưởng 50 triệu",
+      "riskLevel": "warning",
+      "timestamp": "30/08/2026 09:55"
+    }
+  ]
+}
