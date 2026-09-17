@@ -1,0 +1,140 @@
+{
+  "summary": {
+    "totalScans": 1284,
+    "threatsDetected": 142,
+    "reportsSent": 8,
+    "savedResults": 6
+  },
+  "items": [
+    {
+      "id": "SCN-20260831-01",
+      "date": "31/08/2026",
+      "time": "14:32:05",
+      "timestamp": "2026-08-31T14:32:05Z",
+      "type": "url",
+      "typeName": "URL",
+      "target": "https://secure-login-vietcombank-verify.fake-auth.xyz/portal",
+      "status": "danger",
+      "statusLabel": "PHÁT HIỆN MỐI ĐE DỌA",
+      "tab": "scans",
+      "isSaved": true
+    },
+    {
+      "id": "SCN-20260831-02",
+      "date": "31/08/2026",
+      "time": "13:18:44",
+      "timestamp": "2026-08-31T13:18:44Z",
+      "type": "email",
+      "typeName": "Email",
+      "target": "hr-notification@internal-company.com.vn",
+      "status": "safe",
+      "statusLabel": "AN TOÀN",
+      "tab": "scans",
+      "isSaved": false
+    },
+    {
+      "id": "SCN-20260830-01",
+      "date": "30/08/2026",
+      "time": "09:55:11",
+      "timestamp": "2026-08-30T09:55:11Z",
+      "type": "phone",
+      "typeName": "Số điện thoại",
+      "target": "+84 98 421 9901",
+      "status": "warning",
+      "statusLabel": "ĐÁNG NGỜ",
+      "tab": "scans",
+      "isSaved": true
+    },
+    {
+      "id": "SCN-20260830-02",
+      "date": "30/08/2026",
+      "time": "08:02:37",
+      "timestamp": "2026-08-30T08:02:37Z",
+      "type": "email",
+      "typeName": "Email",
+      "target": "service@paypal-security-alert.net",
+      "status": "safe",
+      "statusLabel": "AN TOÀN",
+      "tab": "scans",
+      "isSaved": false
+    },
+    {
+      "id": "SCN-20260829-01",
+      "date": "29/08/2026",
+      "time": "22:14:59",
+      "timestamp": "2026-08-29T22:14:59Z",
+      "type": "url",
+      "typeName": "URL",
+      "target": "http://telegrarn-login-free-gift.club/token?id=99412",
+      "status": "danger",
+      "statusLabel": "PHÁT HIỆN MỐI ĐE DỌA",
+      "tab": "scans",
+      "isSaved": false
+    },
+    {
+      "id": "SCN-20260829-02",
+      "date": "29/08/2026",
+      "time": "17:40:23",
+      "timestamp": "2026-08-29T17:40:23Z",
+      "type": "sms",
+      "typeName": "Tin nhắn",
+      "target": "[Mã OTP] Ma xac thuc cua ban la 592811. Vui long khong chia se cho ai...",
+      "status": "safe",
+      "statusLabel": "AN TOÀN",
+      "tab": "scans",
+      "isSaved": true
+    },
+    {
+      "id": "SCN-20260828-01",
+      "date": "28/08/2026",
+      "time": "11:07:50",
+      "timestamp": "2026-08-28T11:07:50Z",
+      "type": "phone",
+      "typeName": "Số điện thoại",
+      "target": "+84 28 8882 1092 (Giả danh Cục Thuế)",
+      "status": "danger",
+      "statusLabel": "PHÁT HIỆN MỐI ĐE DỌA",
+      "tab": "reports",
+      "isSaved": true
+    },
+    {
+      "id": "SCN-20260828-02",
+      "date": "28/08/2026",
+      "time": "10:33:14",
+      "timestamp": "2026-08-28T10:33:14Z",
+      "type": "sms",
+      "typeName": "Tin nhắn",
+      "target": "Tài khoản của bạn tạm khóa, click vao link de cap nhat cccd...",
+      "status": "warning",
+      "statusLabel": "ĐÁNG NGỜ",
+      "tab": "reports",
+      "isSaved": false
+    },
+    {
+      "id": "SCN-20260827-01",
+      "date": "27/08/2026",
+      "time": "16:21:08",
+      "timestamp": "2026-08-27T16:21:08Z",
+      "type": "email",
+      "typeName": "Email",
+      "target": "billing-support@google.com",
+      "status": "safe",
+      "statusLabel": "AN TOÀN",
+      "tab": "scans",
+      "isSaved": false
+    },
+    {
+      "id": "SCN-20260827-02",
+      "date": "27/08/2026",
+      "time": "09:44:32",
+      "timestamp": "2026-08-27T09:44:32Z",
+      "type": "url",
+      "typeName": "URL",
+      "target": "https://chinhphu.vn/thong-tin-chi-dao",
+      "status": "safe",
+      "statusLabel": "AN TOÀN",
+      "tab": "scans",
+      "isSaved": true
+    }
+  ]
+}
